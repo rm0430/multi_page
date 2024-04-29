@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cats and Dogs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;">Welcome to Rio's Cats and Dogs Site<3</h1>
+        <img src="catanddog.jpeg" alt="cat and dog" width = 50% class="center" margin="center"> 
+        <br></br>
+        <button class="button button2"><a href="index.html"><p1>Home</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="video.html"><p1>Videos</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="gallery.html"><p1>Gallery</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="favorite.html"><p1>Favorite</p1></a></button>
+    </header>
+
+      <h1>Cute cats and dogs gallery</h1>
+      <h3>Yas, looking at dogs and cats pictures are very fun.<br>Especially these are my favorite!!<br>Just look at these cute creatures😻😻😻</br></h3>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="snowcat.jpeg">
+            <img src="snowcat.jpeg" alt="snow cat" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kitty.jpeg">
+            <img src="kitty.jpeg" alt="kitty" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="funnydog.jpeg">
+            <img src="funnydog.jpeg" alt="funny dog" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="showerdog.jpeg">
+            <img src="showerdog.jpeg" alt="shower dog" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      <br></br>
+      
+      </body>
+      
+      
+<footer>
+    <p>&copy; 2024 Cats and Dogs</p>
+</footer>
+</body>
+</html>
