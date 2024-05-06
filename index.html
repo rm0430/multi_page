@@ -1,36 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>犬猫愛</title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-        .center {
-            text-align: center;
-            color: rgb(38, 71, 203);
-            font-size: 160%;
-        }
-        #style {
-            border-radius: 100px;
-            background-color: antiquewhite;
-            padding: 25px; 
-            width: 500px; 
-            font-size: 120%;
-        }
-        </style>
-    </head>
+<html lang="en">
+<head>
+    <title>Cats and Dogs</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .pet-container img {
+    width: 200px;
+    margin: 0 10px; 
+}
 
-    <body>
-        <h1 style="color: rgb(8, 40, 72); font-family: arial">Dogs and Cats🫡</h1>
-        <p class="center">I want to pet <b>dogs and cats</b> in future. </p>
-        <p id="style">Right now, I can't because my parents don't trust me as a pets owner... I watch animal videos everyday and they are super cute!</p>
-        <img src="https://i.pinimg.com/564x/c4/9e/66/c49e66278b72900f6f81651396e1e919.jpg" alt="cat and dog" width="400" height="400"><br>
-        <br>
-        Please visit my other websites!<br>
-        <br>
-        <div class="container">
-            <a href="./namesforpets.html">names for pets!</a><br>
-            <a href="./fav_videos.html">favorite videos</a><br>
-            <a href="./cutephotos.html">cute photos<3</a>
-        </div>
-    </body>  
+.petcontainer:hover {
+    border: 1px solid #777;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;">Welcome to Rio's Cats and Dogs Site<3</h1>
+        <img src="catanddog.jpeg" alt="cat and dog" width = 50% class="center" margin="center"> 
+        <br></br>
+        <button class="button button2"><a href="index.html"><p1>Home</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="video.html"><p1>Videos</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="gallery.html"><p1>Gallery</p1></a></button>
+        &nbsp&nbsp&nbsp&nbsp&nbsp
+        <button class="button button2"><a href="names.html"><p1>Names</p1></a></button>
+    </header>
+
+    <main>
+            <h2>Intro</h2>
+            <p>Cats are like the cool kids of the pet world. 
+               They've got this whole mysterious vibe going on, doing their own thing, yet somehow always managing to steal the spotlight. 
+               Plus, there's nothing quite like the satisfaction of earning a rare head bump or getting to witness the majestic sight of them leaping effortlessly onto the highest shelf. 
+               But then, there's dogs. They're like your hyperactive best friend who's always down for an adventure. 
+               They're the ones who greet you like you've been away for years, even if it's just been five minutes. 
+               And let's not forget the pure joy they bring to even the simplest of activities, like going for a walk or playing fetch in the backyard.</p>
+            <p>To get more info, check out <a href="https://en.wikipedia.org/wiki/Cat">this website </a>for cats and <a href="https://en.wikipedia.org/wiki/Dog">this website</a> for dogs.</p>
+
+
+            <h2>Featured Pets</h2>
+            <p2>Click photo below to see featured dogs and cats!!</p2>
+            <div class="pet-container">
+                <a href="https://www.munciearf.com/projects-2-1">
+                    <img src="https://png.pngtree.com/png-clipart/20230513/ourmid/pngtree-smile-dog-on-white-background-png-image_7096061.png" alt="Dog" style="width:200px;height:200px;">
+                </a>
+                <a href="https://petsforseniors.org/featured-cats/">
+                    <img src="https://media.istockphoto.com/id/1389862392/photo/womans-hand-stroking-a-ginger-cat-on-isolated-white-background.jpg?s=612x612&w=0&k=20&c=DW07OmTZBTG0u2A8McZfmXkIW_7VXCAwDpVIRhUfqQw=" alt="Cat" style="width:300px;height:200px;">
+                </a>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cats and Dogs</p>
+    </footer>
+</body>
 </html>

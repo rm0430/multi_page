@@ -3,6 +3,30 @@
 <head>
     <title>Cats and Dogs</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #tables {
+          font-family:'Times New Roman', Times, serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        #tables td, #tables th {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+        }
+        
+        #tables tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #tables tr:hover {background-color: #ddd;}
+        
+        #tables th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          background-color: #dabbc2;
+          color: white;
+        }
+        </style>
 </head>
 <body>
     <header>
@@ -15,7 +39,7 @@
         &nbsp&nbsp&nbsp&nbsp&nbsp
         <button class="button button2"><a href="gallery.html"><p1>Gallery</p1></a></button>
         &nbsp&nbsp&nbsp&nbsp&nbsp
-        <button class="button button2"><a href="favorite.html"><p1>Favorite</p1></a></button>
+        <button class="button button2"><a href="names.html"><p1>Names</p1></a></button>
     </header>
 
 <main>
@@ -23,7 +47,7 @@
 
     <h3 id="para1">For kitties</h3>
 
-    <table width="100%">
+    <table id="tables">
         <tr>
             <th>Name</th>
             <th>Meaning</th>
@@ -51,7 +75,7 @@
     </table>
 
     <h3 id="para1">For doggies</h3>
-    <table width="">
+    <table id="tables">
         <tr>
             <th>Names</th>
             <th>Meaning</th>
@@ -79,7 +103,6 @@
     </table>
 
     <br>
-
 
 </main>
 
